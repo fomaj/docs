@@ -20,7 +20,7 @@ This acts as both a utility and a governance token.
 Users `Bet` on the market using these tokens. They also get rewards as these tokens..
 
 ## Staking requirement
-There is no lose when a prediction is incorrect. This opens up bad players to spam. Staking requimrnet is how this is miniminzed. 
+There is no loss when a prediction is incorrect. This opens up bad players to spam. Staking requimrnet is how this is miniminzed. 
 
 To participate in prediction rounds, initially users will have to stake `J` amount of `FMJ` tokens to the contract. This will be locked for `K` amount of time. In that time users can partcipate in any number of rounds. 
 
@@ -41,9 +41,13 @@ The more users decide to join FOMAJ to earn risk-free rewards, the more tokens t
 There are two main ways to tackle this. Right now, fomaj follows the *second approach* listed bellow.
 
 #### Minting
+![Minting](/img/minting.png)
+
 This is an approach that `pancakeswap-farms` follows. That is miniting. Pancakeswap mint `CAKE` tokens and gives the users who stake on farms. This makes the `CAKE` token inflationary. But they make it deflationary by buying back and burning tokens.
 
 #### Transaction Fees
+![TxFees](/img/tx-fees.png)
+
 This is the approach `FOMAJ` follows.
 Let's do an example. 
 
@@ -68,11 +72,11 @@ A round has three timestamps.
 
 `t2 - t1` is called an `INTERVAL`. Users can bet only in this timefram. 
 
-`t3 - t1`` = `INTERVAL` * `CLOSE_TIME_MULTIPLIER`
+`t3 - t1` = `INTERVAL` * `CLOSE_TIME_MULTIPLIER`
 
 The amount of `FMJ` tokens in the prize pool in `t3-t1` will be the amount that will be distributed to the winners.
 
-The `INTERVAL` is currently set to `5` minutes.
+The `INTERVAL` is currently set to `15` minutes.
 The `CLOSE_TIME_MULTIPLIER` is currently set to `4`. 
 
 But these valeus are not finalized yet.
