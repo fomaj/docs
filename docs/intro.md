@@ -3,34 +3,28 @@ sidebar_position: 1
 slug: /
 ---
 
-# Tutorial Intro
+# Fomaj Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Fomaj is a  risk free prediction market. 
 
-## Getting Started
+This project was inspired by two other projects in defi space.
 
-Get started by **creating a new site**.
+-  PoolTogether (https://pooltogether.com/)
+-  Pancakeswap Prediction (https://pancakeswap.finance/prediction)
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Pooltogether is a risk-free lottery project. And pancake-prediction is a simple defi app where you can bet if `BNB/USD` will rise or a fall. 
 
-## Generate a new site
+But what if there is an dapp, where you can bet on certain outcome (in this case the price of `CKB/USD`) and not lose anything when you predict wrong? Well, this is what Fomaj does.
 
-Generate a new Docusaurus site using the **classic template**:
+>Right now users can only predict the price of `CKB/USD`, but this can be imporved upon to add other assets and even for predictable scenarios outside of crypto.  
 
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
+Now you are probably wondering how can we reward the winners when there are no losers? We will discuss about this in-depth later. 
 
-## Start your site
+First, let's setup the required tools/accounts. 
 
-Run the development server:
+## Prerequisites
 
-```shell
-cd my-website
+There are few things you need to have setup to work with the app. 
 
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+- Metamask
+- Godwoken L2 account
