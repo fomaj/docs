@@ -16,7 +16,7 @@ There are three main contracts in the fomaj system.
 ### FomajContract
 `0x887111c0C8A60c7085A2004c0843DeCa4344aaF7`
 
-https://github.com/fomaj/contracts/blob/master/contracts/core/FMJToken.sol
+https://github.com/fomaj/contracts/blob/master/contracts/core/Fomaj.sol
 
 The starting point for this contract comes from Pancakeswaps prediction contract (MIT Licenced).
 https://bscscan.com/address/0x18b2a687610328590bc8f2e5fedde3b582a49cda
